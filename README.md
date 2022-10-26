@@ -12,7 +12,7 @@ Enter: lazymake. Now, I don't need to modify the makefile at all when I add a ne
 Lazymake isn't actually an application or library, it's literally just a makefile, nothing special. 
 
 - Add source files to src/
-- Add Header files to src/headers/
+- Add header files to src/headers/
 - Change references in the makefile from "app" or "App" to the name of your application
 - Run "make" from the same directory as the makefile
 - The built application binary/executable should now be found in the build/ directory
